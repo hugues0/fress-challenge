@@ -10,35 +10,63 @@ import thumb2 from "../../images/thumb2.jpg";
 import thumb3 from "../../images/thumb3.jpg";
 import thumb4 from "../../images/thumb4.jpg";
 import thumb5 from "../../images/thumb5.jpeg";
-import add from '../../images/add.ico'
-import send from "../../images/send.ico"
-import view from '../../images/view.ico'
+import add from "../../images/add.ico";
+import send from "../../images/send.ico";
+import view from "../../images/view.ico";
 
-import './myfood.css'
+import "./myfood.css";
 
 const MyFood = () => {
   return (
     <>
-      <h3>My food</h3>
+      <h3 className="section-title">My food</h3>
       <div className="wrapper">
-        <div className="foodcard">
-          <div className="thumb">
-            <img src={thumb1} alt="thumbnail" />
-            <div className="text">
-              <p>Spicy Moroccan shakshuka</p>
-            </div>
-          </div>
-          <div className="hero">
-            <img src={hero1} alt="hero" />
-            <div className="text">
-              <p>This is hero text</p>
-              <img src={add} alt="add" className="icon" />
-              <img src={send} alt="send" className="icon" />
-              <img src={view} alt="view" className="icon" />
-              <button>order now</button>
-            </div>
-          </div>
-        </div>
+        <FoodItem
+          thumbnail={thumb1}
+          title="Spicy Moroccan shakshuka"
+          hero={hero1}
+          title2="This is hero text"
+          add={add}
+          send={send}
+          view={view}
+        />
+        <FoodItem
+          thumbnail={thumb2}
+          title="Spicy Moroccan shakshuka"
+          hero={hero2}
+          title2="This is hero text"
+          add={add}
+          send={send}
+          view={view}
+        />
+        <FoodItem
+          thumbnail={thumb3}
+          title="Spicy Moroccan shakshuka"
+          hero={hero3}
+          title2="This is hero text"
+          add={add}
+          send={send}
+          view={view}
+        />
+        <FoodItem
+          thumbnail={thumb4}
+          title="Spicy Moroccan shakshuka"
+          hero={hero4}
+          title2="This is hero text"
+          add={add}
+          send={send}
+          view={view}
+        />
+        <FoodItem
+          thumbnail={thumb5}
+          title="Spicy Moroccan shakshuka"
+          hero={hero5}
+          title2="This is hero text"
+          add={add}
+          send={send}
+          view={view}
+        />
+        
       </div>
     </>
   );

@@ -1,11 +1,10 @@
-h3 {
+.section-title {
     margin: 20px 10px 10px 50px;
     font-style: italic;
     color: #707B7C;
 }
 
 .wrapper {
-    position: relative;
     display: flex;
     flex-direction: row;
     outline: tomato 1px solid;
@@ -23,7 +22,14 @@ h3 {
 
 .foodcard {
     outline: green 1px solid;
-    position: relative;
+    position: unset;
+    height: 40vh;
+    flex: 1;
+    cursor: pointer
+}
+
+.f3 {
+    flex: 3;
 }
 
 .thumb {
@@ -39,6 +45,7 @@ h3 {
     position: absolute;
     opacity: 0;
     outline: lightseagreen 3px solid;
+    z-index: 10;
 }
 
 .foodcard:hover .hero {
