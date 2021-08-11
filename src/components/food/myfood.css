@@ -1,0 +1,70 @@
+h3 {
+    margin: 20px 10px 10px 50px;
+    font-style: italic;
+    color: #707B7C;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    outline: tomato 1px solid;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 400px;
+}
+
+.wrapper .text {
+    position: absolute;
+    color: white;
+    bottom: 8px;
+    left: 16px;
+}
+
+.foodcard {
+    outline: green 1px solid;
+    position: relative;
+}
+
+.thumb {
+    position: absolute;
+    outline: indigo 1px solid;
+}
+
+.wrapper img {
+    width: auto;
+}
+
+.hero {
+    position: absolute;
+    opacity: 0;
+    outline: lightseagreen 3px solid;
+}
+
+.foodcard:hover .hero {
+    opacity: 1;
+    transform: scale(1.5, 1.1);
+    transition: transform 0.5s;
+}
+
+.foodcard:hover .thumb {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.icon {
+    width: 10px;
+    height: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.wrapper button {
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 15px 0 5px 10px;
+    cursor: pointer;
+}

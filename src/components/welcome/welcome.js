@@ -8,6 +8,7 @@ const Welcome = () => {
         <div className="flex-container">
           <div className="flex-item flex-item1">
             <img src={img1} alt="cooking" />
+            <input type="text" placeholder="Send me a message"></input>
           </div>
           <div className="flex-item flex-item2">
             <h3>Welcome to Maria's italian Kitchen</h3>
