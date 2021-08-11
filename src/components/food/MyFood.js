@@ -25,33 +25,51 @@ const MyFood = () => {
           thumbnail={thumb1}
           title="Spicy Moroccan shakshuka"
           hero={hero1}
-          title2="This is hero text"
+          title2="Prawn curry coconut rice"
           add={add}
           send={send}
           view={view}
         />
         <FoodItem
           thumbnail={thumb2}
-          title="Spicy Moroccan shakshuka"
+          title="Peasant's bean & bean stew"
           hero={hero2}
-          title2="This is hero text"
+          title2="Prawn curry coconut rice"
           add={add}
           send={send}
           view={view}
         />
         <FoodItem
           thumbnail={thumb3}
-          title="Spicy Moroccan shakshuka"
+          title="Hearty beef bourguignon"
           hero={hero3}
-          title2="This is hero text"
+          title2="Prawn curry coconut rice"
           add={add}
           send={send}
           view={view}
         />
         <FoodItem
           thumbnail={thumb4}
-          title="Spicy Moroccan shakshuka"
+          title="Royal lamb safron rice pilau"
           hero={hero4}
+          title2="Prawn curry coconut rice"
+          add={add}
+          send={send}
+          view={view}
+        />
+        <FoodItem
+          thumbnail={thumb5}
+          title="Spicy Spanish patatas bravas"
+          hero={hero5}
+          title2="Prawn curry coconut rice"
+          add={add}
+          send={send}
+          view={view}
+        />
+        <FoodItem
+          thumbnail={thumb5}
+          title="Spicy Moroccan shakshuka"
+          hero={hero5}
           title2="This is hero text"
           add={add}
           send={send}
@@ -66,8 +84,15 @@ const MyFood = () => {
           send={send}
           view={view}
         />
-        
-        
+        <FoodItem
+          thumbnail={thumb5}
+          title="Spicy Moroccan shakshuka"
+          hero={hero5}
+          title2="This is hero text"
+          add={add}
+          send={send}
+          view={view}
+        />
       </div>
     </>
   );

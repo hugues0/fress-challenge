@@ -7,7 +7,7 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    outline: tomato 7px solid;
+    
     width: 90%;
     margin: auto;
     margin-bottom: 70px;
@@ -22,7 +22,7 @@
 
 .foodcard {
     
-    outline: green 10px solid;
+    
     position: unset;
     height: 40vh;
     width: 100%;
@@ -34,7 +34,7 @@
 
 .thumb {
     position: absolute;
-    outline: indigo 15px solid;
+    
     width:auto;
     
 }
@@ -50,7 +50,7 @@ img{
 .hero {
     position: absolute;
     opacity: 0;
-    outline: lightseagreen 3px solid;
+   
     z-index: 10;
 }
 

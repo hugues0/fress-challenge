@@ -5,13 +5,13 @@
     width: 90%;
     padding: auto;
     display: flex;
-    outline: solid 1px blue;
+    
 }
 
 .flex-item {
     width: 100%;
     padding: 10px;
-    outline: solid 1px red;
+    
 }
 
 img {
@@ -23,7 +23,7 @@ img {
 input {
     margin: 20px 0 0 10px;
     width: 100%;
-    border-radius: 26px;
+    border-radius: 8px;
     border: 1px solid #ada9a9;
     padding: 1% 6%;
     background-image: url(https://www.pngarea.com/pngm/418/6850347_send-message-icon-white-clipart-computer-icons-clip.png);

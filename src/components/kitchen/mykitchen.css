@@ -1,6 +1,5 @@
 .flex-container1 {
     display: flex;
-    outline: 2px solid green;
     justify-content: flex-start;
     width: fit-content;
     margin: auto;
@@ -16,6 +15,6 @@
 .flex-container1 .flex-item-one:hover {
     transform: scale(1.1);
     cursor: pointer;
-    transition: transform 0.5s;
+    transition: transform 0.3s;
 }
 
