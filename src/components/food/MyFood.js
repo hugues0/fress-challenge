@@ -24,8 +24,9 @@ const MyFood = () => {
         <FoodItem
           thumbnail={thumb1}
           title="Spicy Moroccan shakshuka"
-          hero={hero1}
-          title2="Prawn curry coconut rice"
+          hero={hero2}
+          bio="Prawn curry coconut rice"
+          details="$5 a portion No allengens likes 1.2k"
           add={add}
           send={send}
           view={view}
@@ -34,7 +35,8 @@ const MyFood = () => {
           thumbnail={thumb2}
           title="Peasant's bean & bean stew"
           hero={hero2}
-          title2="Prawn curry coconut rice"
+          bio="Prawn curry coconut rice"
+          details="$5 a portion No allengens likes 1.2k"
           add={add}
           send={send}
           view={view}
@@ -43,7 +45,8 @@ const MyFood = () => {
           thumbnail={thumb3}
           title="Hearty beef bourguignon"
           hero={hero3}
-          title2="Prawn curry coconut rice"
+          bio="Prawn curry coconut rice"
+          details="$5 a portion No allengens likes 1.2k"
           add={add}
           send={send}
           view={view}
@@ -52,7 +55,8 @@ const MyFood = () => {
           thumbnail={thumb4}
           title="Royal lamb safron rice pilau"
           hero={hero4}
-          title2="Prawn curry coconut rice"
+          bio="Prawn curry coconut rice"
+          details="$5 a portion No allengens likes 1.2k"
           add={add}
           send={send}
           view={view}
@@ -61,7 +65,8 @@ const MyFood = () => {
           thumbnail={thumb5}
           title="Spicy Spanish patatas bravas"
           hero={hero5}
-          title2="Prawn curry coconut rice"
+          bio="Prawn curry coconut rice"
+          details="$5 a portion No allengens likes 1.2k"
           add={add}
           send={send}
           view={view}
@@ -70,7 +75,8 @@ const MyFood = () => {
           thumbnail={thumb5}
           title="Spicy Moroccan shakshuka"
           hero={hero5}
-          title2="This is hero text"
+          bio="Prawn curry coconut rice"
+          details="$5 a portion No allengens likes 1.2k"
           add={add}
           send={send}
           view={view}
@@ -79,7 +85,8 @@ const MyFood = () => {
           thumbnail={thumb5}
           title="Spicy Moroccan shakshuka"
           hero={hero5}
-          title2="This is hero text"
+          bio="Prawn curry coconut rice"
+          details="$5 a portion No allengens likes 1.2k"
           add={add}
           send={send}
           view={view}
@@ -88,7 +95,8 @@ const MyFood = () => {
           thumbnail={thumb5}
           title="Spicy Moroccan shakshuka"
           hero={hero5}
-          title2="This is hero text"
+          bio="Prawn curry coconut rice"
+          details="$5 a portion No allengens likes 1.2k"
           add={add}
           send={send}
           view={view}

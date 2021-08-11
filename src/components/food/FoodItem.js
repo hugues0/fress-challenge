@@ -1,7 +1,7 @@
 import React from 'react'
 import './myfood.css'
 
-const FoodItem = ({ thumbnail, title, hero, title2,add,send,view}) => {
+const FoodItem = ({ thumbnail, title, hero, bio, details,add, send, view }) => {
   return (
     <div className="foodcard">
       <div className="thumb">
@@ -13,7 +13,8 @@ const FoodItem = ({ thumbnail, title, hero, title2,add,send,view}) => {
       <div className="hero">
         <img src={hero} alt="hero" />
         <div className="text">
-          <p>{title2}</p>
+          <p>{bio}</p>
+          <span className="stats">{details}</span>
           <img src={add} alt="add" className="icon" />
           <img src={send} alt="send" className="icon" />
           <img src={view} alt="view" className="icon" />

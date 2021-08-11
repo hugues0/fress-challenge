@@ -7,7 +7,6 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    
     width: 90%;
     margin: auto;
     margin-bottom: 70px;
@@ -21,8 +20,6 @@
 }
 
 .foodcard {
-    
-    
     position: unset;
     height: 40vh;
     width: 100%;
@@ -30,27 +27,22 @@
     cursor: pointer
 }
 
-
-
 .thumb {
     position: absolute;
-    
-    width:auto;
-    
+    width: auto;
 }
 
 .wrapper img {
     width: auto;
 }
 
-img{
+img {
     height: 39vh;
 }
 
 .hero {
     position: absolute;
     opacity: 0;
-   
     z-index: 10;
 }
 
@@ -58,12 +50,18 @@ img{
     opacity: 1;
     transform: scale(1.5, 1.1);
     transition: transform 0.5s;
-    
 }
 
 .foodcard:hover .thumb {
     opacity: 0;
     transition: opacity 1s;
+}
+
+.wrapper .stats {
+    font-size: 8px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
 }
 
 .icon {
