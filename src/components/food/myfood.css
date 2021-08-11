@@ -7,10 +7,10 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    outline: tomato 1px solid;
+    outline: tomato 7px solid;
     width: 90%;
     margin: auto;
-    margin-bottom: 400px;
+    margin-bottom: 70px;
 }
 
 .wrapper .text {
@@ -21,24 +21,30 @@
 }
 
 .foodcard {
-    outline: green 1px solid;
+    
+    outline: green 10px solid;
     position: unset;
     height: 40vh;
-    flex: 1;
+    width: 100%;
+    justify-content: flex-center;
     cursor: pointer
 }
 
-.f3 {
-    flex: 3;
-}
+
 
 .thumb {
     position: absolute;
-    outline: indigo 1px solid;
+    outline: indigo 15px solid;
+    width:auto;
+    
 }
 
 .wrapper img {
     width: auto;
+}
+
+img{
+    height: 39vh;
 }
 
 .hero {
@@ -52,6 +58,7 @@
     opacity: 1;
     transform: scale(1.5, 1.1);
     transition: transform 0.5s;
+    
 }
 
 .foodcard:hover .thumb {

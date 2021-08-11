@@ -10,7 +10,7 @@ import thumb2 from "../../images/thumb2.jpg";
 import thumb3 from "../../images/thumb3.jpg";
 import thumb4 from "../../images/thumb4.jpg";
 import thumb5 from "../../images/thumb5.jpeg";
-import add from "../../images/add.ico";
+import add from "../../images/add-16.png";
 import send from "../../images/send.ico";
 import view from "../../images/view.ico";
 
@@ -66,6 +66,7 @@ const MyFood = () => {
           send={send}
           view={view}
         />
+        
         
       </div>
     </>
